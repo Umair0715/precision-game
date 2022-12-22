@@ -1,0 +1,41 @@
+.bg{
+    width: 100% ;
+    min-height : 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color : var(--bg-color);
+    background-position: center center;
+}
+.heroWrapper{
+    background-image: url('/public/images/bg-home.webp');
+}
+.featuredGamesWrapper{
+    background-image: url('/public/images/featured-bg.webp');
+}
+.aboutWrapper{
+    min-height : 100vh !important;
+    height : 100%;
+    background-image: url('/public/images/about-bg.webp');
+}
+
+.hero-section , .services-section{
+    width: 65%;
+}
+
+
+@media (max-width: 1200px){
+    .hero-section , .services-section{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1000px){
+    .hero-section , .services-section{
+        width: 85%;
+    }
+}
+@media (max-width: 900px){
+    .hero-section , .services-section{
+        width: 95%;
+    }
+}

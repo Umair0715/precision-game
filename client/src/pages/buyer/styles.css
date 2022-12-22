@@ -1,0 +1,17 @@
+.buyer-bg{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    background-image: url('/public/images/buyer-home1.webp');
+    background-size: cover;
+    background-color: var(--bg-color);
+}
+.buyer-hero{
+    background-image: url('/public/images/buyer-home1.webp');
+}
+.buyer-trendings{
+    background-image: url('/public/images/buyer-home2.webp');
+}
+.buyer-purchases{
+    background-image: url('/public/images/buyer-home3.webp');
+    background-color: var(--bg-color);}

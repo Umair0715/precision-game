@@ -1,0 +1,19 @@
+.chatsScroll::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+.chatsScroll::-webkit-scrollbar-track {
+    display:none;
+ }
+ 
+.chatsScroll::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: var(--secondary);
+    
+ }
+
+ @media (max-width: 500px){
+    .chatsScroll::-webkit-scrollbar {
+        width: 4px;
+    }
+ }

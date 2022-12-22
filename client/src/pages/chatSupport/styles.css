@@ -1,0 +1,8 @@
+.chatsupport-wrapper{
+    width: 100%;
+    min-height : 100vh;
+    height: 100%;
+    background-image: url('/public/images/chat-support.png');
+    background-size: cover;
+    background-color: var(--bg-color);
+}

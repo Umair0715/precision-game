@@ -1,0 +1,26 @@
+.dash-sidebar-list{
+    display : flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.dash-sidebar-list > li > a ,.dash-sidebar-list > li:last-child  {
+    display : flex;
+    align-items: center;
+    gap : 8px;
+    font-weight: 500;
+    padding : 10px 10px;
+    color : var(--dark);
+}
+.dash-sidebar-list > li a i  {
+    font-size: 20px;
+}
+.dash-sidebar-list > li:hover a , .dash-sidebar-list > li:last-child:hover{
+    background-color: var(--bg-color);
+    color : var(--pure);
+    cursor : pointer;
+}
+.dash-sidebar-list > li.active > a{
+    color : var(--primary);
+    background-color: var(--bg-color);
+    cursor:pointer;
+}

@@ -1,0 +1,8 @@
+.quickLinksList > li{
+    color : rgb(214, 214, 214);
+    transition: 0.2s all ease-in-out;
+}
+.quickLinksList > li:hover{
+    transform : translateX(10px);
+    color : white;
+}

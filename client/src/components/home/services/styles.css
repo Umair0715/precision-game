@@ -1,0 +1,31 @@
+.services-tab-btn{
+    padding: 20px 32px;
+}
+
+@media(max-width: 850px){
+    .services-tab-btn{
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 700px){
+    .services-tab-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 700px){
+    .services-tab-btn{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 600px){
+    .services-tab-btn{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

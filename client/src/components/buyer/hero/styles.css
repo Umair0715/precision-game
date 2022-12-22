@@ -1,0 +1,67 @@
+.buyer-home-slider.swiper{
+    height : 85vh !important;
+}
+/* .buyer-home-slider .swiper-slide{
+    width: 100% !important;
+} */
+.buyer-home-slider .swiper-slide img{
+    width: 100% !important;
+    height : 60vh !important;
+}
+
+.buyer-home-slider .swiper-pagination-bullets{
+    bottom : -7px !important;
+    z-index: 99;
+}
+.buyer-home-slider .swiper-pagination-bullet{
+    border-radius: 0 !important;
+    width: 12px !important;
+    height : 12px !important;
+    background-color: var(--primary-light) !important;
+    color : var(var(--primary-light)) !important;
+    opacity : 1 !important;   
+}
+
+.buyer-home-slider .swiper-pagination-bullet-active{
+    background-color: var(--secondary) !important;
+}
+
+@media (max-width: 1050px){
+    .buyer-home-slider.swiper{
+        height : 80vh !important;
+        padding: 0 1rem !important;
+    }
+}
+
+@media (max-width: 850px){
+    .buyer-home-slider.swiper{
+        height : 65vh !important;
+        padding: 0 1rem !important;
+    }
+}
+
+@media (max-width: 768px){
+    .buyer-home-slider.swiper{
+        height : 75vh !important;
+        padding: 0 !important;
+    }
+    .buyer-home-slider .swiper-slide img{
+        height : 50vh !important;
+    }
+}
+
+@media (max-width: 500px){
+    .buyer-home-slider.swiper{
+        height : 70vh !important;
+    }
+    .buyer-home-slider .swiper-slide img{
+        height : 35vh !important;
+    }
+}
+
+@media (max-width: 400px){
+    .buyer-home-slider.swiper{
+        height : 75vh !important;
+    }
+}
+
